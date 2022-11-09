@@ -10,43 +10,61 @@
     <title>Document</title>
 </head>
 <body>
+
     
-    <ul>
-        <li>
-            <a aria-haspopup="true" aria-expanded="false">
-                v4.4
-            </a>
-            <div aria-labelledby="bd-versions">
-                <a href="/docs/4.4/">Latest (4.4.x)</a>
-                <a href="https://getbootstrap.com/docs/4.3/">v4.3.1</a>
-                <a href="https://getbootstrap.com/docs/4.2/">v4.2.1</a>
-                <a href="https://getbootstrap.com/docs/4.0/">v4.0.0</a>
-            </div>
-        </li>
-        <!-- autres balises li avec des liens -->
-     </ul>
 
-
-     <div>
-        <div id="toggleNavbar">
-          <div>
-            <!-- le contenu de votre menu de navigation ici -->
-          </div>
-        </div>
+     
         <nav>
           <button aria-controls="toggleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
+            <span><div>
+                <div id="toggleNavbar">
+                  <div>
+                    <ul>
+                        <li>
+                            <a aria-haspopup="true" aria-expanded="false">
+                                v4.4
+                            </a>
+                            <div aria-labelledby="bd-versions">
+                                <a href="/docs/4.4/">Latest (4.4.x)</a>
+                                <a href="https://getbootstrap.com/docs/4.3/">v4.3.1</a>
+                                <a href="https://getbootstrap.com/docs/4.2/">v4.2.1</a>
+                                <a href="https://getbootstrap.com/docs/4.0/">v4.0.0</a>
+                            </div>
+                        </li>
+                        <nav aria-label="breadcrumb">
+                            <ol>
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item"><a href="#">Library</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Data</li>
+                            </ol>
+                         </nav>
+                     </ul>
+                  </div>
+                </div><nav aria-label="Global">
+                    <a aria-label="Pull requests you created" aria-current="page" href="/pulls">
+                      Pull requests
+                    </a>
+                    <a aria-label="Issues you created" href="/issues">
+                      Issues
+                    </a>
+                    <div class="mr-3">
+                        <a href="/marketplace">
+                            Marketplace
+                        </a>     
+                    </div>
+                    <a href="/explore">
+                      Explore
+                    </a>
+                 </nav></span>
           </button>
         </nav>
      </div>
 
 
-     <nav aria-label="breadcrumb">
-        <ol>
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Library</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Data</li>
-        </ol>
-     </nav>
+    
+    
+    
+    
+
 </body>
 </html>
