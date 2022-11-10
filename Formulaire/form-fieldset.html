@@ -32,5 +32,19 @@
             </p>
         </fieldset>
      </form>
+
+     <div role="group" aria-labelledby="coordonnees">
+        <p id="coordonnes">Vos coordonnées</p> <!-- Le groupe réalisé avec des div et les attributs ARIA -->
+      
+        <label class="hidden" for="nom">Quel est votre nom ?</label>
+        <input type="text" name="nom" id="nom" />
+      
+        <label for="prenom">Quel est votre prénom ?</label>
+        <input type="text" name="prenom" id="prenom" />
+      
+        <label for="email">Quel est votre e-mail ?</label>
+        <input type="email" name="email" id="email" />
+      
+     </div>
 </body>
 </html>
